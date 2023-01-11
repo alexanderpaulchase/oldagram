@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: whitesmoke
+}
+
+/* utils */
+.container {
+    width: 500px;
+    margin: auto;
+    background: #fff;
+}
+.bold {
+    font-weight: 600;
+}
+
+/* images */
+#logo {
+    width: 150px;
+}
+
+.user-avatar {
+    width: 40px;
+    border-radius: 25px
+}
+.post-img {
+    width: 100%;
+}
+.icon {
+    width: 30px;
+    margin: 15px 10px 0px 10px;
+}
+
+/* header */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 10px 15px;
+}
+
+/* body */
+section{
+    padding: 0 0 10px 0;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+}
+
+.info {
+    margin: 0 0 0 10px;
+}
+
+.info h4,
+.info p {
+    margin: 0;
+    padding: 1px;
+}
+
+.user-name-likes {
+    width: 300px;
+    padding-left: 12px;
+    padding-bottom: 15px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.user-name-likes p {
+    margin: 0;
+    padding: 5px;
+}
